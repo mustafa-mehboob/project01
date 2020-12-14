@@ -38,5 +38,5 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build project01-mustafaapp.surge.sh -- token ${{ secrets.surge_token}}
+      run: surge ./build project01-mustafaapp.surge.sh -- token ${{ secrets.SURGE_TOKEN}}
      
